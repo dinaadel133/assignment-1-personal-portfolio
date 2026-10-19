@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f9fa;
+}
+.clear-fix {
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin: auto;
+
+  border-radius: 20px;
+}
+.personal-info {
+  text-align: center;
+  margin-block: 20px;
+  background-color: #222831;
+  background-color: #00acb5ad;
+  background-color: teal;
+}
+.info-title {
+  color: white;
+  padding-top: 50px;
+}
+.info-p {
+  color: rgba(255, 255, 255, 0.784);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.info-btn {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border: white solid 1px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.166);
+  margin: 20px 5px 35px;
+}
+.info-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.about,
+.my-skills,
+.experience,
+.contact {
+  padding: 25px;
+  background-color: white;
+  /* border: 1px white solid; */
+}
+.about h2,
+.my-skills h2,
+.experience h2,
+.contact h2 {
+  color: teal;
+  margin-bottom: 10px;
+}
+.job-title {
+  color: teal;
+}
+.about-p {
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  word-spacing: 2px;
+}
+.about-info {
+  float: left;
+  width: 145px;
+  height: 145px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-image: url(../images/t11\ \(4\).jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.about-info1 {
+  float: right;
+  margin-top: 10px;
+  width: 85%;
+}
+.about-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  margin-top: 10px;
+}
+hr.line {
+  border: none;
+  height: 0.5px;
+  background-color: rgba(0, 128, 128, 0.734);
+  /* border-top: 1px solid teal; */
+}
+.my-skills,
+.my-skills-p {
+  margin-block: 20px;
+}
+.my-skills-p {
+  font-size: 15px;
+  /* line-height: 30px; */
+}
+.my-skills-card {
+  padding: 0 20px;
+}
+.card {
+  float: left;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 128, 128, 0.384);
+  margin-right: 25px;
+  width: 22%;
+  padding-bottom: 40px;
+  background-color: rgba(0, 128, 128, 0.118);
+}
+.card h2 {
+  font-size: 18px;
+}
+.card p {
+  line-height: 25px;
+}
+.senior {
+  border-left: 3px solid teal;
+  margin: 20px;
+  background-color: rgba(0, 128, 128, 0.118);
+  border-radius: 10px;
+  padding: 30px;
+}
+.senior img {
+  width: 100px;
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+.experience-info {
+  float: right;
+  width: 88%;
+  margin-top: 10px;
+}
+.experience-info p {
+  margin-block: 20px;
+}
+.experience-p {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.senior p {
+  font-size: 18px;
+}
+.ex-p {
+  color: teal;
+}
+.experience-info .ex-title {
+  color: black;
+}
+.contact {
+  margin-block: 20px;
+  padding-top: 35px;
+  color: #fff;
+  background-color: teal;
+}
+.contact p {
+  margin-block: 20px;
+  font-size: 18px;
+}
+.contact h2 {
+  color: #fff;
+}
+.contact-line {
+  border: none;
+  border-top: 1px solid #ffffff7b;
+}
+.contact-btn {
+  color: #fff;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  background-color: #ffffff32;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.copy-right {
+  background-color: #042f2e;
+  margin-block: 20px;
+  padding-block: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  /* background-color: #0a1f22; */
+}
+.copy-right span {
+  color: teal;
+}
